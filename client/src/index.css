@@ -1,0 +1,12 @@
+@import "tailwindcss";
+ @font-face {
+    font-family: ne;
+    src: url("./assets/Outfit-VariableFont_wght.ttf");
+ }
+ *{
+    box-sizing: border-box;
+    font-family:ne;
+}
+::-webkit-scrollbar{
+   display: none;
+}
