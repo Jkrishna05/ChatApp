@@ -14,7 +14,7 @@ Users can create accounts, join chat rooms, and exchange messages instantly.
 ## 🔗 Live Demo  
 
 🌐 **[Live Demo](https://your-live-demo-url.com)** – try it online!  
-📂 **[GitHub Repo](https://github.com/your-username/realtime-chat-app)**  
+📂 **[GitHub Repo](https://github.com/Jkrishna05/ChatApp.git)**  
 
 ---
 
