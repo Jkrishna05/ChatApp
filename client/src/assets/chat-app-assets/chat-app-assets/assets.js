@@ -11,7 +11,8 @@ import arrow_icon from './arrow_icon.png'
 import code from './code.svg'
 import bgImage from './bgImage.svg'
 import neonchat from './neonchat_logo.png'
-
+import Zivo from './Zivo.png'
+import zivo from './zivo_logo.png'
 import cross_icon from './cross_icon.png'
 const assets = {
     avatar_icon,
@@ -27,7 +28,9 @@ const assets = {
     code,
     bgImage,
     cross_icon,
-    neonchat
+    neonchat,
+    Zivo,
+    zivo
 }
 
 export default assets;

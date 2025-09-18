@@ -6,13 +6,14 @@ import Loginpage from './pages/Loginpage'
 import  { Toaster } from 'react-hot-toast'
 import { ChatContext } from './context/Context'
 import { useContext } from 'react'
+import assets from './assets/chat-app-assets/chat-app-assets/assets'
 
 const App = () => {
   let value=useContext(ChatContext);
   let {authUser}=value;
 
   return (
-    <div className='bg-[url("./bgImage.svg")] bg-cover'>
+    <div className='bg-[url("./bgImage.svg")] bg-cover bg-no-repeat bg-center bg-fixed '>
       <Toaster />
       <Routes>
         <Route path='/' element={authUser?<Homepage />:<Navigate to='/login'/>} />

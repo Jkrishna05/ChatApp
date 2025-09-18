@@ -30,7 +30,7 @@ const Loginpage = () => {
   }
   return (
     <div className='min-h-screen flex items-center justify-center backdrop-blur-2xl max-sm:flex-col gap-10 sm:justify-evenly'>
-      <img src={assets.logo_big} className='w-[min(30vw,250px)]' alt="" />
+      <img src={assets.logo_big} className='w-[min(40vw,250px)]' alt="" />
       {/* Sign up /Login form  */}
        
       <form onSubmit={onSubmit} className='flex flex-col bg-[#8d90af17] p-6 rounded-2xl'  action="">

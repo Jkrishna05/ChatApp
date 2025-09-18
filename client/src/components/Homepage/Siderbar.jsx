@@ -36,13 +36,13 @@ const Siderbar = () => {
       }`}
     >
       <div className='topload sticky top-0 bg-[#645CA5] p-4 z-10 '>
-        <div className='flex justify-between items-center px-4 py-2 '>
-          <img src={assets.logo} alt='logo' className='max-w-40' />
+        <div className='flex justify-between items-center px-2  '>
+          <img src={assets.zivo} alt='logo' className='max-w-50 ' />
           <div className='relative group py-4'>
             <img src={assets.menu_icon} alt='menu' className='h-5 ' />
-            <div className='absolute top-full right-0 border px-[20px] py-[10px] rounded bg-[#282142] border-gray-600 text-white hidden group-hover:block z-2'>
+            <div className='absolute top-full right-0 border px-[10px] py-[10px] rounded bg-[#282142] border-gray-600 text-white hidden group-hover:block z-2'>
               <p
-                className='cursor-pointer text-sm'
+                className='cursor-pointer text-xl'
                 onClick={() => {
                   nav('/profile');
                 }}
@@ -50,7 +50,7 @@ const Siderbar = () => {
                 Edit Profile
               </p>
               <hr className='my-2 border-t border-gray-500' />
-              <p className='cursor-pointer text-sm' onClick={logout}>
+              <p className='cursor-pointer text-xl' onClick={logout}>
                 Log Out
               </p>
             </div>

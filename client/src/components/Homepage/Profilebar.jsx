@@ -35,7 +35,7 @@ const Profilebar = ({help,setHelp}) => {
           {Array.isArray(onlineUsers) && onlineUsers.includes(selecteduser._id) && (
             <p className='w-2 h-2 rounded-full bg-green-500'></p>
           )}
-          {selecteduser.fullName}
+          {selecteduser.fullname}
         </h1>
         <p className='mx-auto'>{selecteduser.bio}</p>
       </div>

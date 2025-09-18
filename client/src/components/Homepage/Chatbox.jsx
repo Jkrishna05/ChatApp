@@ -167,8 +167,8 @@ const Chatbox = ({help,setHelp}) => {
       </div>
     </div>
   ) : (
-    <div className='flex flex-col items-center justify-center h-full gap-4'>
-      <img src={assets.logo} alt='' className='w-50' />
+    <div className='flex flex-col items-center justify-center h-full '>
+      <img src={assets.zivo} alt='' className='w-50' />
       <p className='text-white '> Chat anytime , anywhere</p>
     </div>
   );
