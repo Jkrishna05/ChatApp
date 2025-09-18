@@ -158,4 +158,4 @@ if(process.env.NODE_ENV !== "production"){
   });
 }
 // for vercel
-export default Server;
+export default server;
